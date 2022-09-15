@@ -43,6 +43,14 @@ public class LessonsController {
 
     }
 
+//    @PatchMapping("{id}")
+//    public ResponseEntity<Object> findByIdAndUpdate(@PathVariable long id, @RequestBody Lesson thingToUpdate){
+//        if(this.repository.findById(id).isPresent()){
+//            Lesson toUpdate = this.repository.findById(id).get();
+//
+//        }
+//    }
+
 
 
 }
